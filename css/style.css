@@ -5,6 +5,7 @@
 }
 body{
   font-family: 'Roboto', sans-serif;
+  background-color: #EAF0F6;
   color: #33475B;
 }
 .container{
@@ -99,6 +100,7 @@ body{
   background-image: url('../img/jumbotron.png');
   background-repeat: no-repeat;
   background-position: right;
+  border-bottom: 3px solid #33475B;
 }
 .jumbotron h1{
   font-size: 50px;
@@ -115,9 +117,26 @@ body{
   font-size: 12px;
 }
 /* main */
-main{
-  height: 300px;
-  background-color: green;
+.blank{
+  height: 100px;
+  background-color: #74DCCF;
+  border-bottom: 3px solid #33475B;
+}
+.stack{
+  text-align: center;
+  padding: 40px 0;
+}
+.stack img{
+  width: 20%;
+  padding: 20px 0;
+}
+.stack h2{
+  padding: 20px 0;
+  font-size: 35px;
+}
+.stack p{
+  padding: 20px 0;
+  margin: 0 300px;
 }
 /* footer */
 footer{
