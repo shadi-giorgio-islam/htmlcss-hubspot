@@ -3,11 +3,30 @@
   padding: 0;
   box-sizing: border-box;
 }
+body{
+  font-family: 'Roboto', sans-serif;
+  color: #33475B;
+}
 .container{
   width: 80%;
   margin: 0 auto;
-  height: 100%;
-  background-color: rgb(142, 122, 209);
+}
+.btn{
+  text-decoration: none;
+  border-radius: 5px;
+  color: white;
+  padding: 5px 10px;
+}
+.white{
+  color: #FF7A59;
+  background-color: white;
+  border: 1px solid #FF7A59;
+}
+.orange{
+  background-color: #FF7A59;
+}
+.large{
+  padding: 20px 30px;
 }
 .clearfix{
   content: '';
@@ -19,37 +38,81 @@
 }
 /* header */
 .header-top{
-  height: 100px;
-  background-color: #8A99A5;
+  background-color: #EAF0F6;
+  border-bottom: 1px solid #33475B;
 }
 .inner-header-top-left{
-  height: 100%;
   width: 50%;
-  background-color: yellow;
+  padding: 30px 0;
+}
+.inner-header-top-left p{
+  display: inline-block;
+  margin: 0 10px;
+}
+.inner-header-top-left p:first-child{
+  border-right: 1px solid #33475B;
+  padding-right: 10px;
 }
 .inner-header-top-right{
-  height: 100%;
   width: 50%;
-  background-color: violet;
+  padding: 30px 0;
+  text-align: right;
+}
+.inner-header-top-right .search-icon{
+  color: rgb(0, 191, 203);
+}
+.inner-header-top-right div{
+  display: inline-block;
+  margin: 0 10px;
 }
 
+/* header bottom */
 .header-bottom{
-  height: 100px;
   background-color: white;
 }
 .inner-header-bottom-left{
-  height: 100%;
   width: 50%;
-  background-color: red;
+}
+.logo{
+  position: relative;
+  height: 80px;
+}
+.inner-header-bottom-left img{
+  position: absolute;
+  left: 10px;
+  top: 50%;
+  transform: translateY(-50%);
 }
 .inner-header-bottom-right{
-  height: 100%;
   width: 50%;
-  background-color: rgb(0, 110, 212);
+  line-height: 80px;
+  text-align: right;
 }
-.jambotron{
-  height: 100px;
-  background-color: rgb(60, 217, 153);
+.inner-header-bottom-right p{
+  display: inline-block;
+  margin: 0 10px;
+}
+.jumbotron{
+  height: 500px;
+  width: 100%;
+  background-color: #FFF4EE;
+  background-image: url('../img/jumbotron.png');
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.jumbotron h1{
+  font-size: 50px;
+  padding: 20px 0;
+}
+.jumbotron p{
+  line-height: 1.6;
+  padding: 20px 0;
+}
+.jumbotron .button{
+  padding: 20px 0;
+}
+.jumbotron .small{
+  font-size: 12px;
 }
 /* main */
 main{
