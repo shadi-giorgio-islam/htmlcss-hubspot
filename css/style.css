@@ -8,6 +8,14 @@ body{
   background-color: #EAF0F6;
   color: #33475B;
 }
+ul li{
+  display: inline-block;
+  margin: 0 10px;
+}
+a{
+  text-decoration: none;
+  color: #33475B;
+}
 .container{
   width: 80%;
   margin: 0 auto;
@@ -29,7 +37,7 @@ body{
 .large{
   padding: 20px 30px;
 }
-.clearfix{
+.clearfix::after{
   content: '';
   display: table;
   clear: both;
@@ -38,6 +46,9 @@ body{
   float: left;
 }
 /* header */
+header{
+  display: unset;
+}
 .header-top{
   background-color: #EAF0F6;
   border-bottom: 1px solid #33475B;
@@ -46,20 +57,17 @@ body{
   width: 50%;
   padding: 30px 0;
 }
-.inner-header-top-left p{
-  display: inline-block;
-  margin: 0 10px;
-}
-.inner-header-top-left p:first-child{
+
+.inner-header-top-left ul li:first-child{
   border-right: 1px solid #33475B;
-  padding-right: 10px;
+  padding-right: 20px;
 }
 .inner-header-top-right{
   width: 50%;
   padding: 30px 0;
   text-align: right;
 }
-.inner-header-top-right .search-icon{
+.inner-header-top-right .search-icon a{
   color: rgb(0, 191, 203);
 }
 .inner-header-top-right div{
@@ -70,6 +78,10 @@ body{
 /* header bottom */
 .header-bottom{
   background-color: white;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1;
+  top: 0;
 }
 .inner-header-bottom-left{
   width: 50%;
@@ -89,12 +101,9 @@ body{
   line-height: 80px;
   text-align: right;
 }
-.inner-header-bottom-right p{
-  display: inline-block;
-  margin: 0 10px;
-}
+/* jumbotron */
 .jumbotron{
-  height: 500px;
+  height: 525px;
   width: 100%;
   background-color: #FFF4EE;
   background-image: url('../img/jumbotron.png');
@@ -137,6 +146,11 @@ body{
 .stack p{
   padding: 20px 0;
   margin: 0 300px;
+}
+.crm{
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 /* footer */
 footer{
