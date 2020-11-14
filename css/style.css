@@ -373,8 +373,38 @@ header{
   background-size: contain;
   background-position: center;
 }
-
-
+/* inizio today */
+.today{
+  padding: 30px 0;
+}
+.inner-today-left{
+  text-align: left;
+  padding: 30px 0;
+  width: 60%;
+}
+.inner-today-left h2{
+  margin-bottom: 15px;
+  font-size: 35px;
+}
+.inner-today-left p{
+  margin-bottom: 15px;
+}
+.inner-today-left .button{
+  margin-bottom: 15px;
+  padding: 40px 0;
+}
+.inner-today-left .today-small{
+  margin-bottom: 15px;
+  font-size: 12px;
+}
+.inner-today-right{
+  background-image: url('../img/woman.webp');
+  width: 40%;
+  height: 290px;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 /* footer */
 footer{
 
