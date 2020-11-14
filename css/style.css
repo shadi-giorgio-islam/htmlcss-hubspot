@@ -252,7 +252,7 @@ header{
 .table{
   background-image: linear-gradient(45deg,#00a4bd,#00bda5);
   margin-top: 30px;
-  padding: 40px 0;
+  padding: 50px 0;
   color: white;
   text-align: center;
 }
@@ -291,6 +291,87 @@ header{
 }
 .col.last{
   border-right: none;
+}
+/* inizio sezione partners */
+.partners{
+  padding: 40px 0;
+}
+.small-container{
+  width: 60%;
+  margin: auto;
+}
+.inner-partners-left{
+  width: 40%;
+  text-align: left;
+  padding: 30px 30px 0 0;
+}
+.inner-partners-left h2{
+  margin-bottom: 20px;
+  font-size: 40px;
+}
+.inner-partners-left p{
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+.inner-partners-right{
+  width: 60%;
+  text-align: center;
+}
+.row-img{
+  height: 100px;
+}
+.row-img .partner-img{
+  width: calc(80% / 4);
+  height: 100%;
+  margin: 10px;
+}
+#wwf{
+  background-image: url('https://f.hubspotusercontent00.net/hubfs/53/1200px-WWF_logo_svg%20(1).png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#trello{
+  background-image: url('https://f.hubspotusercontent00.net/hubfs/53/trello-logo-blue%20(1).png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#g-due{
+  background-image: url('https://f.hubspotusercontent00.net/hubfs/53/1200px-G2_Crowd_logo.svg.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#survey-monkey{
+  background-image: url('https://www.hubspot.com/hubfs/assets/hubspot.com/homepage/Vertical_Sabaeus_RGB.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#subaru{
+  background-image: url('https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Subaru_Logo_v2_186x63@2x.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#soundcloud{
+  background-image: url('https://f.hubspotusercontent00.net/hubfs/53/soundcloud.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#classpass{
+  background-image: url('https://www.hubspot.com/hubfs/assets/hubspot.com/home/home_page_logos_June_2019/Classpass-logo@2x.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+#vmware{
+  background-image: url('https://storage.googleapis.com/ldo3-files-prod/uploads/asset/custom_client_logo/3970/VMware_logo_4.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 
