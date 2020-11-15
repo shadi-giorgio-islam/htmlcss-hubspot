@@ -36,15 +36,20 @@ h5{
   text-decoration: none;
   border-radius: 5px;
   color: white;
-  padding: 5px 10px;
+  padding: 8px 10px;
 }
 .white{
   color: #FF7A59;
   background-color: white;
   border: 1px solid #FF7A59;
+  padding: 7px 9px;
 }
 .orange{
   background-color: #FF7A59;
+}
+.blue{
+  background-color: white;
+  color: #2D3E50;
 }
 .large{
   padding: 20px 30px;
@@ -400,12 +405,85 @@ header{
 .inner-today-right{
   background-image: url('../img/woman.webp');
   width: 40%;
-  height: 290px;
+  height: 350px;
   background-size: contain;
-  background-position: center;
+  background-position: right;
   background-repeat: no-repeat;
 }
 /* footer */
 footer{
-
+  padding: 20px 0;
+  background-color: #2D3E50;
+}
+footer a:hover{
+  color: #00a4bd;
+}
+.footer-top{
+  padding-top: 20px;
+}
+table{
+  width: 110%;
+  padding-bottom: 40px;
+}
+table tr th{
+  color: white;
+  text-align: left;
+  padding-bottom: 20px;
+}
+table tr td{
+  padding-bottom: 15px;
+}
+table tr td a{
+  color: white;
+  text-align: left;
+}
+table tr td .btn:hover{
+  color: #2D3E50;
+}
+table tr td a i{
+  margin-right: 27px;
+}
+.footer-middle ul{
+  text-align: center;
+}
+.footer-middle ul li a{
+  color: white;
+  margin-right: 15px;
+}
+.footer-middle ul li a:hover{
+  color: #00a4bd;
+}
+.footer-middle hr{
+  margin: 20px 0;
+}
+.footer-bottom{
+  padding-bottom: 20px;
+}
+.footer-bottom-left{
+  width: 50%;
+}
+.footer-bottom-left p{
+  color: white;
+}
+.footer-logo{
+  position: relative;
+  height: 50px;
+}
+.footer-bottom-left img{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.footer-bottom-right{
+  width: 50%;
+  line-height: 50px;
+  text-align: right;
+}
+.footer-bottom-right ul li a{
+  color: white;
+  margin-left: 15px;
+}
+.footer-bottom-right ul li a:hover{
+  color: #00a4bd;
 }
