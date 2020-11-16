@@ -63,12 +63,13 @@ h5{
   float: left;
 }
 /* header */
-header{
-  display: unset;
-}
 .header-top{
   background-color: #EAF0F6;
   border-bottom: 1px solid #33475B;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+  width: 100%;
 }
 .inner-header-top-left{
   width: 50%;
@@ -97,10 +98,7 @@ header{
 /* header bottom */
 .header-bottom{
   background-color: white;
-  position: -webkit-sticky;
-  position: sticky;
-  z-index: 1;
-  top: 0;
+  margin-top: 80px;
 }
 .inner-header-bottom-left{
   width: 50%;
